@@ -1,0 +1,10 @@
+name: Build on Windows
+on: push
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - run: choco install gh
+      - run: gh version
+      - run: git clone https://github.com/PunEpicStudio/edk2.git
+      - run: cmd

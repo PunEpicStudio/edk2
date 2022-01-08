@@ -8,3 +8,4 @@ jobs:
       - run: gh version
       - run: git clone https://github.com/PunEpicStudio/edk2.git
       - run: cmd
+      - run: dir
